@@ -63,7 +63,7 @@ function App() {
 
   return (
     <div className='app-container'>
-      <div className='nav-menu'>
+      <div className='nav-menu' style={{display:"flex",justifyContent:"center"}}>
         <button onClick={() => setShowDeletedHabits(!showDeletedHabits)}>
           Deleted Habits
         </button>
